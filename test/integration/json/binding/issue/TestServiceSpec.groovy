@@ -199,8 +199,8 @@ class TestServiceSpec extends IntegrationSpec {
         b2 = new B(name: 'B2').save(failOnError: true)
         b3 = new B(name: 'B3').save(failOnError: true)
 
-        c1 = new B(name: 'C1').save(failOnError: true)
-        c2 = new B(name: 'C2').save(failOnError: true)
+        c1 = new C(name: 'C1').save(failOnError: true)
+        c2 = new C(name: 'C2').save(failOnError: true)
 
         cc1 = new CC(name: 'CC1', altName: 'Cee Cee One').save(failOnError: true)
         cc2 = new CC(name: 'CC2', altName: 'Cee Cee Two').save(failOnError: true)
