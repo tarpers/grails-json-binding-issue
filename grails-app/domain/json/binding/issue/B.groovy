@@ -4,4 +4,5 @@ class B {
 
     String name
 
+    static belongsTo = [A]
 }
